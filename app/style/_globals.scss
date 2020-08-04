@@ -1,0 +1,33 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open sans", sans-serif;
+  font-size: 1.125rem;
+  color: $white;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  display: block;
+  width: fit-content;
+  padding: 1.3125rem 3.8125rem;
+  background-color: $white;
+  text-decoration: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.75);
+  border-radius: 50px;
+  color: $violet;
+}
+p {
+  color: $paragraphColor;
+}

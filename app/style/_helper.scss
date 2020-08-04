@@ -1,0 +1,9 @@
+.flex {
+  display: flex;
+  &-jc-sa {
+    justify-content: space-around;
+  }
+  &-ai-c {
+    align-content: center;
+  }
+}

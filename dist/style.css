@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Poppins:wght@400;700&display=swap");
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-ai-c {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open sans", sans-serif;
+  font-size: 1.125rem;
+  color: white;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1.3125rem 3.8125rem;
+  background-color: white;
+  text-decoration: none;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.75);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.75);
+  border-radius: 50px;
+  color: #674baf;
+}
+
+p {
+  color: #f8e6ff;
+}
+
+body {
+  background: url(/images/bg-desktop.svg);
+  background-size: 100% 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #674baf;
+  padding: 0rem 4.3125rem;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
+}
+
+body .container {
+  max-height: 80%;
+  width: auto;
+  margin-top: 5.6875rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container .left-side {
+  width: 50%;
+  height: 29.625rem;
+  background-image: url(/images/illustration-mockups.svg);
+  background-size: 100% 29.625rem;
+  background-repeat: no-repeat;
+}
+
+body .container .right-side {
+  width: 50%;
+  padding-left: 3.25rem;
+}
+
+body .social-links {
+  margin-left: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 1.5rem;
+}
+
+body .social-links svg.fa-facebook-f, body .social-links svg.fa-instagram, body .social-links svg.fa-twitter {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  padding: 0.5em;
+  cursor: pointer;
+  border-radius: 50px;
+  margin: 0 1em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body .social-links svg.fa-facebook-f:hover, body .social-links svg.fa-instagram:hover, body .social-links svg.fa-twitter:hover {
+  color: #674baf;
+  background-color: white;
+}
+
+@media (max-width: 74.9375rem) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .container .left-side {
+    min-width: 100%;
+  }
+  .container .right-side {
+    min-width: 100%;
+    text-align: center;
+  }
+  .container .right-side a {
+    margin: 0 auto;
+  }
+  .social-links {
+    margin: 2rem auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
